@@ -27,3 +27,6 @@ Sildurs Vibrant Shaders v1.262 High.zip
 
 https://download1839.mediafire.com/9me38x4bazgg/8jhxhmlm0c5gwtr/Sildur%5C%27s+Vibrant+Shaders+v1.262+Medium.zip
 Sildurs Vibrant Shaders v1.262 Medium.zip
+
+https://optifine.net/downloadx?f=OptiFine_1.12.2_HD_U_E2.jar&x=0e810da7ed07f41fb74222fd4ef1ce59
+OptiFine_1.12.2_HD_U_E2.jar

@@ -1,0 +1,28 @@
+[sudo groupadd studenci]
+sudo adduser tadeusz
+[hasło ustawione podczas wykonania komendy]
+sudo adduser tadeusz studenci
+cd $HOME/Pulpit
+echo Kornel Woźniakowski > informacja
+cp ./informacja ./info_kopia
+sudo chown tadeusz info_kopia
+sudo chmod (ugo=rwx) info_kopia
+[polecenie 6]
+touch studia
+touch informatyka
+touch linux
+chmod 754 studia
+chmod 666 informatyka
+chmod 440 linux
+[polecenie 7]
+touch politechnika
+touch czestochowa
+[touch trzeci_noname]
+chmod 664 politechnika
+chmod 644 czestochowa
+[chmod 444 trzeci_noname]
+mkdir cwiczenie2
+mv -t cwiczenie2 studia informatyka linux politechnika czestochowa [trzeci_noname]
+chmod 600 cwiczenie2
+[nie]
+sudo deluser tadeusz

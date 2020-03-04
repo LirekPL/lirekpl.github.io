@@ -1,0 +1,14 @@
+cd $HOME/Pulpit
+mkdir dowiazania
+cd dowiazania
+ls /etc > etc.txt
+cp etc.txt ./kopia_etc.txt
+ll
+ln $HOME/Pulpit/dowiazania/etc.txt link_tw_etc
+ll
+ln -s $HOME/Pulpit/dowiazania/etc.txt link_soft_etc
+[link_soft_etc jest na niebiesko]
+rm ./etc.txt
+[link_soft_etc jest na czerwono]
+cp ./link_tw_etc ./etc.txt
+[działa, ponieważ przywróciliśmy plik z dowiązania twardego]
